@@ -78,12 +78,7 @@ Instead of using the default threshold of 0.5, the decision threshold was tuned 
 A threshold of 0.45 was selected, as it significantly improved recall for churners while maintaining acceptable precision.
 This choice reduces missed churners and aligns better with business priorities where retaining at-risk customers is more important than avoiding false alarms.
 
-From your evaluation:
-
-Threshold Precision Recall F1
-0.50 0.52 0.78 0.62
-0.45 0.50 0.82 0.62
-0.40 0.47 0.85 0.61
+From evaluation:
 Why 0.45 is best:
 
 Recall is high (82% churners caught)
