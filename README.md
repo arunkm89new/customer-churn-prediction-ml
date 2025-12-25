@@ -91,6 +91,8 @@ Fewer false alarms than lower thresholds
 
 This is a balanced, defensible decision.
 
+The final model achieved a ROC-AUC score of 0.84, indicating strong ability to distinguish between churners and non-churners across different decision thresholds. This demonstrates robust model performance despite class imbalance.
+
 ## Conclusion
 
 This project addressed customer churn prediction as a supervised binary classification problem using logistic regression.
